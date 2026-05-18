@@ -126,13 +126,12 @@
 
   <div style={{ display: 'flex', flexDirection: 'column', gap: 16, width: 220, flexShrink: 0 }}>
     <div style={{ position: 'relative', display: 'flex', flex: 1, background: '#08080d', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
-      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW95cTRnOXM1dTc1YTFwNjRkcGNkN2RqYjdhdTB3NTc3NDFiNjFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h58dtf5vTpjulO4M5o/giphy.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.3 }} />
+      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW95cTRnOXM1dTc1YTFwNjRkcGNkN2RqYjdhdTB3NTc3NDFiNjFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h58dtf5vTpjulO4M5o/giphy.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.2 }} />
       <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
         <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>🎯</span>
         <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4 }}>publications</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', marginTop: 4 }}>
-          <a href="https://arxiv.org/abs/2604.05090" >Multilingual Language Models Encode Script Over Linguistic Structure (ACL Main 2026)</a>
-        </span>
+        <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.8)', marginTop: 8, marginLeft: 10, marginRight: 10, textAlign: 'center', lineHeight: 1.35 }}>Multilingual Language Models Encode Script Over Linguistic Structure</span>
+        <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.5)', marginTop: 6 }}>ACL Main 2026 · arXiv below</span>
       </div>
     </div>
   </div>
@@ -184,6 +183,24 @@
     ))}
   </div>
 </div>
+```
+
+```aura width=300 height=44 link="https://arxiv.org/abs/2604.05090" inline align=center
+<SocialMediaButton
+  icon="https://cdn.simpleicons.org/arxiv/B31B1B"
+  text="ACL Main 2026 · arXiv"
+  backgroundColor="#140808"
+  width={300}
+  height={44}
+  gradientStops={[
+    { offset: '0%', color: '#ffffff' },
+    { offset: '10%', color: '#111111' },
+    { offset: '50%', color: '#eeeeee' },
+    { offset: '60%', color: '#B31B1B' },
+    { offset: '80%', color: '#111111' },
+    { offset: '100%', color: '#555555' },
+  ]}
+/>
 ```
 
 ```aura width=120 height=44 link="https://github.com/collectioneur" inline align=center
