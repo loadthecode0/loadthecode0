@@ -376,3 +376,6 @@
   ]}
 />
 ```
+
+<br>
+<p align="center"><sub>crazy template by <a href="https://github.com/collectioneur/readme-aura">readme-aura</a></sub></p>
