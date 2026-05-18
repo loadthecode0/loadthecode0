@@ -131,7 +131,7 @@
         <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>🎯</span>
         <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4 }}>publications</span>
         <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', marginTop: 4 }}>
-          <a href="https://arxiv.org/abs/2604.05090" style={{ fontSize: 10, color: 'rgba(255,255,255,0.42)', marginTop: 10, fontFamily: 'monospace', textDecoration: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)' }}>Multilingual Language Models Encode Script Over Linguistic Structure (ACL Main 2026)</a>
+          <a href="https://arxiv.org/abs/2604.05090" >Multilingual Language Models Encode Script Over Linguistic Structure (ACL Main 2026)</a>
         </span>
       </div>
     </div>
