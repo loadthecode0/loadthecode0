@@ -131,7 +131,7 @@
         <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>🎯</span>
         <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4 }}>publications</span>
         <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.8)', marginTop: 8, marginLeft: 10, marginRight: 10, textAlign: 'center', lineHeight: 1.35 }}>Multilingual Language Models Encode Script Over Linguistic Structure</span>
-        <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.5)', marginTop: 6 }}>ACL Main 2026 · arXiv below</span>
+        <span style={{ fontSize: 9, color: 'rgba(255,255,255,0.5)', marginTop: 6 }}>ACL Main 2026</span>
       </div>
     </div>
   </div>
@@ -185,6 +185,44 @@
 </div>
 ```
 
+```aura width=800 height=112
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
+  <style>{`
+    @keyframes stack-orb { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(18px,-14px); opacity: 0.7; } }
+    @keyframes stack-orb-b { 0%, 100% { transform: translate(0,0); opacity: 0.4; } 50% { transform: translate(-14px,10px); opacity: 0.65; } }
+    #pub-ban-o1 { animation: stack-orb 10s ease-in-out infinite; }
+    #pub-ban-o2 { animation: stack-orb-b 12s ease-in-out infinite 1s; }
+    #pub-ban-o3 { animation: stack-orb 9s ease-in-out infinite 2.5s; }
+    #pub-ban-o4 { animation: stack-orb-b 11s ease-in-out infinite 0.5s; }
+  `}</style>
+  <svg width="800" height="112" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="pub-ban-g1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(108,195,130,0.4)" />
+        <stop offset="100%" stopColor="rgba(108,195,130,0)" />
+      </radialGradient>
+      <radialGradient id="pub-ban-g2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(230,100,115,0.35)" />
+        <stop offset="100%" stopColor="rgba(230,100,115,0)" />
+      </radialGradient>
+      <radialGradient id="pub-ban-g3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(80,160,220,0.3)" />
+        <stop offset="100%" stopColor="rgba(80,160,220,0)" />
+      </radialGradient>
+      <radialGradient id="pub-ban-g4" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(195,155,255,0.3)" />
+        <stop offset="100%" stopColor="rgba(195,155,255,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="pub-ban-o1" cx="80" cy="160" rx="160" ry="120" fill="url(#pub-ban-g1)" />
+    <ellipse id="pub-ban-o2" cx="730" cy="50" rx="150" ry="120" fill="url(#pub-ban-g2)" />
+    <ellipse id="pub-ban-o3" cx="640" cy="170" rx="140" ry="110" fill="url(#pub-ban-g3)" />
+    <ellipse id="pub-ban-o4" cx="180" cy="40" rx="130" ry="100" fill="url(#pub-ban-g4)" />
+  </svg>
+  <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase', zIndex: 10 }}>publications</span>
+</div>
+```
+
 ```aura width=300 height=44 link="https://arxiv.org/abs/2604.05090" inline align=center
 <SocialMediaButton
   icon="https://cdn.simpleicons.org/arxiv/B31B1B"
@@ -201,6 +239,44 @@
     { offset: '100%', color: '#555555' },
   ]}
 />
+```
+
+```aura width=800 height=112
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
+  <style>{`
+    @keyframes stack-orb { 0%, 100% { transform: translate(0,0); opacity: 0.45; } 50% { transform: translate(18px,-14px); opacity: 0.7; } }
+    @keyframes stack-orb-b { 0%, 100% { transform: translate(0,0); opacity: 0.4; } 50% { transform: translate(-14px,10px); opacity: 0.65; } }
+    #soc-ban-o1 { animation: stack-orb 10s ease-in-out infinite; }
+    #soc-ban-o2 { animation: stack-orb-b 12s ease-in-out infinite 1s; }
+    #soc-ban-o3 { animation: stack-orb 9s ease-in-out infinite 2.5s; }
+    #soc-ban-o4 { animation: stack-orb-b 11s ease-in-out infinite 0.5s; }
+  `}</style>
+  <svg width="800" height="112" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="soc-ban-g1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(108,195,130,0.4)" />
+        <stop offset="100%" stopColor="rgba(108,195,130,0)" />
+      </radialGradient>
+      <radialGradient id="soc-ban-g2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(230,100,115,0.35)" />
+        <stop offset="100%" stopColor="rgba(230,100,115,0)" />
+      </radialGradient>
+      <radialGradient id="soc-ban-g3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(80,160,220,0.3)" />
+        <stop offset="100%" stopColor="rgba(80,160,220,0)" />
+      </radialGradient>
+      <radialGradient id="soc-ban-g4" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(195,155,255,0.3)" />
+        <stop offset="100%" stopColor="rgba(195,155,255,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="soc-ban-o1" cx="80" cy="160" rx="160" ry="120" fill="url(#soc-ban-g1)" />
+    <ellipse id="soc-ban-o2" cx="730" cy="50" rx="150" ry="120" fill="url(#soc-ban-g2)" />
+    <ellipse id="soc-ban-o3" cx="640" cy="170" rx="140" ry="110" fill="url(#soc-ban-g3)" />
+    <ellipse id="soc-ban-o4" cx="180" cy="40" rx="130" ry="100" fill="url(#soc-ban-g4)" />
+  </svg>
+  <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase', zIndex: 10 }}>social</span>
+</div>
 ```
 
 ```aura width=120 height=44 link="https://github.com/collectioneur" inline align=center
@@ -221,7 +297,7 @@
 />
 ```
 
-```aura width=138 height=44 link="https://x.com/collectioneur" inline align=center
+```aura width=138 height=44 link="https://x.com/collectioneur" inline
 <SocialMediaButton
   icon="https://cdn.simpleicons.org/x/ffffff"
   text="X.com"
@@ -239,7 +315,7 @@
 />
 ```
 
-```aura width=130 height=44 link="https://t.me/collectioneur" inline align=center
+```aura width=130 height=44 link="https://t.me/collectioneur" inline
 <SocialMediaButton
   icon="https://cdn.simpleicons.org/telegram/26A5E4"
   text="Telegram"
@@ -257,7 +333,7 @@
 />
 ```
 
-```aura width=110 height=44 link="mailto:hello@collectioneur.dev" inline align=center
+```aura width=110 height=44 link="mailto:hello@collectioneur.dev" inline
 <SocialMediaButton
   icon="https://cdn.simpleicons.org/gmail/EA4335"
   text="Email"
