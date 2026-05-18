@@ -187,7 +187,7 @@
 
 ```aura width=800 height=32
 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', fontFamily: 'Inter, sans-serif', backgroundColor: 'transparent' }}>
-  <span style={{ fontSize: 11, color: 'rgba(31, 35, 40, 0.55)', letterSpacing: 4, textTransform: 'uppercase' }}>publications</span>
+  <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase' }}>publications</span>
 </div>
 ```
 
@@ -211,7 +211,7 @@
 
 ```aura width=800 height=32
 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', fontFamily: 'Inter, sans-serif', backgroundColor: 'transparent' }}>
-  <span style={{ fontSize: 11, color: 'rgba(31, 35, 40, 0.55)', letterSpacing: 4, textTransform: 'uppercase' }}>social</span>
+  <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', letterSpacing: 4, textTransform: 'uppercase' }}>social</span>
 </div>
 ```
 
