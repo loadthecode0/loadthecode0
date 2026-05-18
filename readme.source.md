@@ -215,7 +215,7 @@
 </div>
 ```
 
-```aura width=120 height=44 link="https://github.com/collectioneur" inline align=center
+```aura width=120 height=44 link="https://github.com/loadthecode0" inline align=center
 <SocialMediaButton
   icon="https://cdn.simpleicons.org/github/ffffff"
   text="GitHub"
@@ -233,43 +233,25 @@
 />
 ```
 
-```aura width=138 height=44 link="https://x.com/collectioneur" inline
+```aura width=148 height=44 link="https://scholar.google.com/citations?user=Yh7zMZAAAAAJ&hl=en&oi=ao" inline
 <SocialMediaButton
-  icon="https://cdn.simpleicons.org/x/ffffff"
-  text="X.com"
-  backgroundColor="#141414"
-  width={138}
+  icon="https://cdn.simpleicons.org/googlescholar/4285F4"
+  text="Scholar"
+  backgroundColor="#101820"
+  width={148}
   height={44}
   gradientStops={[
     { offset: '0%', color: '#ffffff' },
     { offset: '10%', color: '#111111' },
     { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#ffffff' },
+    { offset: '60%', color: '#4285F4' },
     { offset: '80%', color: '#111111' },
     { offset: '100%', color: '#555555' },
   ]}
 />
 ```
 
-```aura width=130 height=44 link="https://t.me/collectioneur" inline
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/telegram/26A5E4"
-  text="Telegram"
-  backgroundColor="#0a2939"
-  width={130}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#26A5E4' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-/>
-```
-
-```aura width=110 height=44 link="mailto:hello@collectioneur.dev" inline
+```aura width=110 height=44 link="mailto:aastha.v1411@gmail.com" inline
 <SocialMediaButton
   icon="https://cdn.simpleicons.org/gmail/EA4335"
   text="Email"
